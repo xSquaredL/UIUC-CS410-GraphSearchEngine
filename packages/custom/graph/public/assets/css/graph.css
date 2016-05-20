@@ -1,0 +1,12 @@
+.graph-example h1 {
+  background-color: purple
+}
+
+.network {
+  width: 100%;
+  height: 800px;
+  padding: 0;
+  margin: 0;
+  border-style: solid;
+  border-width: 1px;
+}

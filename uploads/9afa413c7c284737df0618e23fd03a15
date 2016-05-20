@@ -1,0 +1,8 @@
+Summary:
+We discuss different retrieval models and ranking function. State of the art ranking functions tend to rely on bag of words representation, TF, DF, and document length. VSM is one approach to design ranking function. Bag of words can be represented using bit vector: 1 if word is present, and 0 if word is absent. One way to measure similarity instantiation is using the dot product of the two vectors. The simplest VSM is based on the bit-vector, dot product, and the BOW. VSM is not effective when the ranking function score is the same. The improved VSM uses Term Frequency Vector: instead of using 0 and 1, we use the count of word. The further improvement adds Inverse Document Frequency, which penalizes popular terms. VSM with TF-IDF weighting is more effective, but it introduces other problems. TF transformation turns the raw count of word into a term frequency weight. Document length normalization is used to penalize long document because it has higher chance of matching. Pivoted length normalization use average doc length as pivot. 
+
+Most difficult concepts:
+The most difficult concept is different retrieval methods and ranking functions. 
+
+Question:
+In real world project, how should we choose retrieval method and ranking function? What are the advantages, disadvantages, similarities, and difference between these retrieval methods? 
